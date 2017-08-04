@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_gray_bg"
+    android:fitsSystemWindows="true"
+    tools:context="com.xiaohui.android.activity.xx.AddFriendActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/main_title_white">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/xx_add_friend"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp18" />
+
+            <ImageView
+                android:id="@+id/onClick_BACK"
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:background="@drawable/selectable_title_white"
+                android:scaleType="center"
+                android:src="@drawable/back_black" />
+        </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:id="@+id/onClick_SEARCH"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:layout_marginTop="@dimen/dp10"
+            android:background="@drawable/selectable_background"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:scaleType="center"
+                android:src="@drawable/add_friend_search" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/xx_add_friend_search"
+                android:textColor="@color/add_friend_search_color"
+                android:textSize="@dimen/sp16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/onClick_ADDRESS"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:layout_marginTop="@dimen/dp10"
+            android:background="@drawable/selectable_background"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:scaleType="center"
+                android:src="@drawable/add_friend_address" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/xx_add_friend_address"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp16" />
+
+            <ImageView
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:scaleType="center"
+                android:src="@drawable/fx_into" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/onClick_KNOW"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:layout_marginTop="@dimen/dp0.5"
+            android:background="@drawable/selectable_background"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:scaleType="center"
+                android:src="@drawable/add_friend_know" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/xx_add_friend_know"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp16" />
+
+            <ImageView
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:scaleType="center"
+                android:src="@drawable/fx_into" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/onClick_SAME"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:layout_marginTop="@dimen/dp0.5"
+            android:background="@drawable/selectable_background"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:scaleType="center"
+                android:src="@drawable/add_friend_same" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/xx_add_friend_same"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp16" />
+
+            <ImageView
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:scaleType="center"
+                android:src="@drawable/fx_into" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/onClick_SHARE"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:layout_marginTop="@dimen/dp0.5"
+            android:background="@drawable/selectable_background"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:scaleType="center"
+                android:src="@drawable/add_friend_share" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="@string/xx_add_friend_share"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp16" />
+
+            <ImageView
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:scaleType="center"
+                android:src="@drawable/fx_into" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

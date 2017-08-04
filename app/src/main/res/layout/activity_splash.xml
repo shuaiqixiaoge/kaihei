@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiaohui.android.SplashActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/iv_splash"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/iv_weimiao"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wanglikun" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+            <com.xiaohui.android.view.CircleTextProgressbar
+                android:id="@+id/tv_red_skip"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="@dimen/status_progress_height"
+                android:text="跳过"
+                android:textColor="#fff"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/iv_weimiao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/splash_loading_bg"
+            android:visibility="visible" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

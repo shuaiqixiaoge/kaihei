@@ -1,3 +1,77 @@
 <resources>
-    <string name="app_name">SJ</string>
+    <string name="app_name">XH</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--权限-->
+    <string name="permission_title">权限管理</string>
+    <string name="permission_cancel">任性拒绝</string>
+    <string name="permission_summit">欣然接受</string>
+    <string name="permission_phone_call">您拒绝了电话权限，导致通话功能异常!</string>
+    <string name="permission_camera">您拒绝了拍照，相机权限，导致拍照功能异常!</string>
+    <string name="permission_contacts">您拒绝了联系人权限，无法获取联系人信息!</string>
+
+    <string name="cancel">取消</string>
+    <string name="summit">确认</string>
+    <string name="commit">提交</string>
+    <!--主页选项卡-->
+    <string name="main_menu_zx">资讯</string>
+    <string name="main_menu_xg">行情</string>
+    <string name="main_menu_fx">发现</string>
+    <string name="main_menu_xx">消息</string>
+    <string name="main_menu_wd">我的</string>
+    <!--我的-->
+    <string name="my_account">我的账户</string>
+    <string name="my_xiaotao">我的校淘</string>
+    <string name="my_faxingren">我的发行人</string>
+    <string name="my_signService">签约服务</string>
+    <string name="my_keService">我的客服</string>
+    <string name="my_question">常见问题</string>
+    <string name="my_setting">设置中心</string>
+    <!--发现-->
+    <string name="fx_sj">时见</string>
+    <string name="fx_sj_content">颠覆传统，玩转校园生活！</string>
+    <string name="fx_dt">动态</string>
+    <string name="fx_dt_content">秀出精彩</string>
+    <string name="fx_easy">简单</string>
+    <string name="fx_easy_content">简单生活</string>
+    <string name="fx_xh">学生态校花</string>
+    <string name="fx_xh_content">校园金融</string>
+    <string name="fx_wh">爱网红</string>
+    <string name="fx_wh_content">我型我秀</string>
+    <string name="fx_jf">校汇积分</string>
+    <string name="fx_jf_content">随赚随花</string>
+    <string name="fx_share">分享赚积分</string>
+    <string name="fx_share_content">积分触手可及</string>
+    <string name="fx_teach">云创教育</string>
+    <string name="fx_teach_content">帮助就业</string>
+    <string name="fx_mzx">漫资讯</string>
+    <string name="fx_mzx_content">二次元的世界</string>
+    <!--消息-->
+    <string name="message_fs">我的粉丝</string>
+    <string name="message_gz">关注</string>
+    <!--校淘-->
+    <string name="xt_title">动态</string>
+    <!--简单-->
+    <string name="easy_title">简单</string>
+    <!--消息-->
+    <string name="xx_add_friend">添加好友</string>
+    <string name="xx_add_friend_search">昵称/手机号</string>
+    <string name="xx_add_friend_address">通讯录好友</string>
+    <string name="xx_add_friend_know">可能认识的人</string>
+    <string name="xx_add_friend_same">同校好友</string>
+    <string name="xx_add_friend_share">分享我的名片</string>
+    <string name="xx_search_result">搜索结果</string>
+    <string name="xx_friend_address">通讯录好友</string>
+    <string name="xx_friend_know">可能认识</string>
+    <string name="xx_friend_same">同校好友</string>
+    <!--我的-->
+    <string name="info_title">个人资料</string>
+    <string name="info_head">头像</string>
+    <string name="info_nick">昵称</string>
+    <string name="info_school">学校</string>
+    <string name="info_birthday">出生日期</string>
+    <string name="info_sex">男</string>
+    <string name="info_identify">认证中心</string>
 </resources>

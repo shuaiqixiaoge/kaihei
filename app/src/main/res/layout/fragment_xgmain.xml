@@ -1,0 +1,13 @@
+<com.shell.view.refresh.TwinklingRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/refreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/xg_theme_blue"
+    tools:context="com.xiaohui.android.fragment.xg.XGItemFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</com.shell.view.refresh.TwinklingRefreshLayout>

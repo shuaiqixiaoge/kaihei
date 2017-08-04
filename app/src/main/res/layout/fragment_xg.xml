@@ -1,0 +1,63 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_title_blue"
+    android:paddingTop="@dimen/status_bar_height"
+    tools:context="com.xiaohui.android.fragment.XGFragment">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/main_menu_xg"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp18" />
+
+            <ImageView
+                android:id="@+id/onClick_DEAL"
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:background="@drawable/selectable_main_menu"
+                android:scaleType="center"
+                android:src="@drawable/xg_title_left" />
+
+            <ImageView
+                android:id="@+id/onClick_SEARCH"
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/dp50"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/selectable_main_menu"
+                android:scaleType="center"
+                android:src="@drawable/xg_title_right" />
+        </RelativeLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp40"
+            app:tabGravity="center"
+            app:tabIndicatorColor="@color/xg_title_tab_line"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/xg_title_tv_select"
+            app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+            app:tabTextColor="@color/xg_title_tv_normal" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>

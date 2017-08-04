@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SJ.iml" filepath="$PROJECT_DIR$/SJ.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SeeHour.iml" filepath="$PROJECT_DIR$/SeeHour.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XH2.iml" filepath="$PROJECT_DIR$/XH2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baselib/baselib.iml" filepath="$PROJECT_DIR$/baselib/baselib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/librararyforfileprovdider/librararyforfileprovdider.iml" filepath="$PROJECT_DIR$/librararyforfileprovdider/librararyforfileprovdider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shell/shell.iml" filepath="$PROJECT_DIR$/shell/shell.iml" />
     </modules>
   </component>
 </project>

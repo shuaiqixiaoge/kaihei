@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DynamicImageView">
+
+        <attr name="heightRatio" format="float"></attr>
+
+    </declare-styleable>
+
+
+    <declare-styleable name="ThumbnailView">
+        <attr name="pressed_color" format="color"></attr>
+        <attr name="mode" format="enum">
+            <enum name="src" value="1" />
+            <enum name="src_over" value="3" />
+            <enum name="dst_over" value="4" />
+            <enum name="src_atop" value="9" />
+            <enum name="dst_atop" value="10" />
+            <enum name="add" value="12" />
+            <enum name="multiply" value="13" />
+            <enum name="overly" value="15" />
+        </attr>
+    </declare-styleable>
+
+</resources>

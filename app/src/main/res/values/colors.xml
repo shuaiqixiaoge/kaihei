@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#21294c</color>
+    <color name="colorPrimaryDark">#21294c</color>
+    <color name="colorAccent">#21294c</color>
+    <!--横线颜色-->
+    <color name="message_line">#e1e1e1</color>
+    <!-- 主题颜色 -->
+    <color name="white">#ffffff</color>
+    <color name="blue">#0000ff</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+    <!--主页-->
+    <color name="main_red">#e73d3d</color>
+    <color name="main_blue">#2270f1</color>
+    <color name="main_gray">#626987</color>
+    <color name="main_bottom_bg">#21294c</color>
+    <color name="main_title_blue">#21294c</color>
+    <color name="main_title_white">#f3f3f3</color>
+    <color name="main_gray_bg">#e1e1e1</color>
+    <!-- 校股-->
+    <color name="xg_title_tv_normal">#4e5883</color>
+    <color name="xg_title_tv_select">#2270f1</color>
+    <color name="xg_title_tab_line">#2270f1</color>
+    <color name="xg_red">#e73d3d</color>
+    <color name="xg_name">#575757</color>
+    <color name="xg_theme_blue">#1e2440</color>
+    <!--我的-->
+    <color name="my_line_color">#e1e1e1</color>
+    <color name="my_bg_color">#f3f3f3</color>
+    <color name="my_text_color">#1f1f1f</color>
+    <color name="my_translucence">#55ff0000</color>
+    <!--发现-->
+    <color name="fx_bg_color">#f3f3f3</color>
+    <color name="fx_black">#242424</color>
+    <color name="fx_gray">#9a9a9a</color>
+    <!--消息-->
+    <color name="message_red_bg">#e73d3d</color>
+    <color name="add_friend_search_color">#a6a6a6</color>
+    <color name="add_friend_search_num_color">#3c3c3c</color>
+
 </resources>

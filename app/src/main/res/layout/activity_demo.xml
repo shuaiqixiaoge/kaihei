@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.xiaohui.android.activity.wd.DemoActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="btn" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="80dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="tv"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@color/black"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:hint="test"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+        </LinearLayout>
+
+        <com.xiaohui.android.view.AnimTestView
+            android:id="@+id/customText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="320dp"
+            android:gravity="center"
+            android:padding="10dp"
+            custom:text="3712"
+            custom:textColor="#ff0000"
+            custom:textSize="40sp" />
+
+        <com.xiaohui.android.view.AnimImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="400dp"
+            android:padding="@dimen/dp10"
+            custom:image="@mipmap/ic_launcher"
+            custom:imageScaleType="center"
+            custom:tv="测试测试测试测试"
+            custom:tvColor="@color/blue"
+            custom:tvDivider="@dimen/dp10"
+            custom:tvSize="@dimen/sp14" />
+
+        <com.xiaohui.android.view.AnimCircleView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="400dp"
+            android:padding="@dimen/dp10"
+            custom:centerColor="@color/black"
+            custom:centerSize="@dimen/sp15"
+            custom:centerText="进度"
+            custom:firstColor="@color/red"
+            custom:firstSize="@dimen/dp20"
+            custom:firstSpeed="20"
+            custom:secondColor="@color/blue"
+            custom:secondSize="@dimen/dp20"
+            custom:secondSpeed="25" />
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

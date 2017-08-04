@@ -8,4 +8,59 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--返回键样式-->
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>
+    </style>
+
+    <style name="AppTheme.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/xg_title_tv_normal</item>
+    </style>
+
+    <!--标准-->
+    <style name="tv_black_14sp">
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="tv_white_14sp">
+        <item name="android:textSize">@dimen/sp14</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--发现-->
+    <style name="fx_tv_gray_12sp">
+        <item name="android:textSize">@dimen/sp12</item>
+        <item name="android:textColor">@color/fx_gray</item>
+    </style>
+
+    <style name="fx_tv_black_16sp">
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="android:textColor">@color/fx_black</item>
+    </style>
+    <!--我的-->
+    <style name="wd_tv_15sp">
+        <item name="android:textSize">@dimen/sp15</item>
+        <item name="android:textColor">@color/my_text_color</item>
+    </style>
+
+    <style name="wd_tv_gray_12sp">
+        <item name="android:textSize">@dimen/sp12</item>
+        <item name="android:textColor">@color/fx_gray</item>
+    </style>
+
+    <style name="wd_tv_black_16sp">
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="android:textColor">@color/fx_black</item>
+    </style>
+
 </resources>

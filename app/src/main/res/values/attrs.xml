@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleTextProgressbar">
+        <attr name="in_circle_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="AnimTestView">
+        <attr name="textSize" format="dimension" />
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="AnimImageView">
+        <attr name="tvSize" format="dimension" />
+        <attr name="tv" format="string" />
+        <attr name="tvColor" format="color" />
+        <attr name="image" format="reference" />
+        <attr name="tvDivider" format="dimension" />
+        <attr name="imageScaleType">
+            <enum name="fillXY" value="0" />
+            <enum name="center" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="AnimCircleView">
+        <attr name="firstColor" format="color" />
+        <attr name="secondColor" format="color" />
+        <attr name="firstSize" format="dimension" />
+        <attr name="secondSize" format="dimension" />
+        <attr name="centerSize" format="dimension" />
+        <attr name="centerText" format="string" />
+        <attr name="centerColor" format="color" />
+        <attr name="firstSpeed" format="integer"/>
+        <attr name="secondSpeed" format="integer"/>
+    </declare-styleable>
+</resources>
