@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\github\\aaa\\SeeHour\\base\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\179b8963dc5e8bba81dea0ff55b534d4d1144cc4\\output\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "D:\\github\\aaa\\SeeHour\\base\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\253fe17f192d6b17c8836f86d926c90a3145b9ea\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\github\\aaa\\SeeHour\\base\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\253fe17f192d6b17c8836f86d926c90a3145b9ea\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "D:\\github\\aaa\\SeeHour\\base\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\253fe17f192d6b17c8836f86d926c90a3145b9ea\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\github\\aaa\\SeeHour\\base\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\179b8963dc5e8bba81dea0ff55b534d4d1144cc4\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "D:\\github\\aaa\\SeeHour\\base\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\253fe17f192d6b17c8836f86d926c90a3145b9ea\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\github\\aaa\\SeeHour\\base\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\179b8963dc5e8bba81dea0ff55b534d4d1144cc4\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "D:\\github\\aaa\\SeeHour\\base\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\179b8963dc5e8bba81dea0ff55b534d4d1144cc4\\output\\res\\drawable-v21\\design_password_eye.xml"
+    }
+]
